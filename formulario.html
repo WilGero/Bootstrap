@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <div class="mb-3 row">
+                <label class="col-form-label col-auto" for="id">ID</label>
+                <div class="col-auto">
+                    <input value="1" disabled readonly class="form-control-plaintext" type="number" name="id" id="id">
+                </div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="name">Nombres</label>
+                <input placeholder="Ingrese sus nombres" class="form-control" type="text" name="name" id="name">
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="lastname">Apellidos</label>
+                <input placeholder="Ingrese sus apellidos" class="form-control" type="text" name="lastname" id="lastname">
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="email">Email</label>
+                <input placeholder="Ingrese un email valido" class="form-control" type="email" name="email" id="email">
+            </div>
+            <div>
+                <label class="form-label" for="description">Observaciones</label>
+                <textarea placeholder="Ingrese alguna observacion" class="form-control" name="description" id="description" cols="30" rows="10"></textarea>
+            </div>
+        </form>
+    </div>
+    </body>
+</html>

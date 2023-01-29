@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <title>Tablas Responsivas</title>
+</head>
+<body>
+    <div class="container">
+        <table class="table">
+            <thead class="table-dark">
+                    <th>#</th>
+                    <th>Nombre</th>
+                    <th>Apodo</th>
+                    <th>Pais</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table-warning">
+                    <th>1</th>
+                    <th>Ronaldo</th>
+                    <th>El fenomeno</th>
+                    <th>Brasil</th>
+                </tr>
+                <tr class="table-info">
+                    <th>1</th>
+                    <th>Messi</th>
+                    <th>La pulga</th>
+                    <th>Argentina</th>
+                </tr>
+                <tr class="table-danger">
+                    <th>1</th>
+                    <th>Cristiano Ronaldo</th>
+                    <th>El bicho</th>
+                    <th>Portugal</th>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-success table-striped">
+            <thead >
+                    <th>#</th>
+                    <th>Nombre</th>
+                    <th>Apodo</th>
+                    <th>Pais</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <th>Ronaldo</th>
+                    <th>El fenomeno</th>
+                    <th>Brasil</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>Messi</th>
+                    <th>La pulga</th>
+                    <th>Argentina</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>Cristiano Ronaldo</th>
+                    <th>El bicho</th>
+                    <th>Portugal</th>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-success table-striped-columns table-hover">
+            <thead >
+                    <th>#</th>
+                    <th>Nombre</th>
+                    <th>Apodo</th>
+                    <th>Pais</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <th>Ronaldo</th>
+                    <th>El fenomeno</th>
+                    <th>Brasil</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>Messi</th>
+                    <th>La pulga</th>
+                    <th>Argentina</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>Cristiano Ronaldo</th>
+                    <th>El bicho</th>
+                    <th>Portugal</th>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-primary table-hover">
+            <thead >
+                    <th>#</th>
+                    <th>Nombre</th>
+                    <th>Apodo</th>
+                    <th>Pais</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table-active">
+                    <th>1</th>
+                    <th>Ronaldo</th>
+                    <th>El fenomeno</th>
+                    <th>Brasil</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>Messi</th>
+                    <th>La pulga</th>
+                    <th>Argentina</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>Cristiano Ronaldo</th>
+                    <th>El bicho</th>
+                    <th>Portugal</th>
+                </tr>
+            </tbody>
+        </table>
+        <div class="table-responsive">
+            <table class="table table-sm table-hove caption-top">
+                <caption>
+                    Los mejores futbolistas
+                </caption>
+            <thead class="table-dark">
+                    <th scope="col">#</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Apodo</th>
+                    <th scope="col">Pais</th>
+                    <th>Descripcion 1</th>
+                    <th>Descripcion 2</th>
+                    <th>Descripcion 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td>Ronaldo</td>
+                    <td>El fenomeno</td>
+                    <td>Brasil</td>
+                    <td>descripcion 1</td>
+                    <td>descripcion 2</td>
+                    <td>descripcion 3</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>Messi</td>
+                    <td>La pulga</td>
+                    <td>Argentina</td>
+                    <td>descripcion 1</td>
+                    <td>descripcion 2</td>
+                    <td>descripcion 3</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>Cristiano Ronaldo</td>
+                    <td>El bicho</td>
+                    <td>Portugal</td>
+                    <td>descripcion 1</td>
+                    <td>descripcion 2</td>
+                    <td>descripcion 3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>footer 1</td>
+                    <td>footer 2</td>
+                    <td>footer 3</td>
+                    <td>footer 4</td>
+                    <td>footer 5</td>
+                    <td>footer 6</td>
+                    <td>footer 7</td>
+                </tr>
+            </tfoot>
+            </table>
+        </div>
+        <table class="table table-bordered border-primary table-hover">
+            <thead >
+                    <th>#</th>
+                    <th>Nombre</th>
+                    <th>Apodo</th>
+                    <th>Pais</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <th>Ronaldo</th>
+                    <th>El fenomeno</th>
+                    <th>Brasil</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>Messi</th>
+                    <th>La pulga</th>
+                    <th>Argentina</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>Cristiano Ronaldo</th>
+                    <th>El bicho</th>
+                    <th>Portugal</th>
+                </tr>
+            </tbody>
+        </table>
+      
+    </div>
+</body>
+</html>
